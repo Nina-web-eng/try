@@ -1,5 +1,6 @@
 <table border="1">
         <tr>
+        <td></td>
             <th>_</th>
             <th>星期一</th>
             <th>星期二</th>
@@ -33,11 +34,8 @@
         </tr>
         </tr>
             <td>12:10</td>
-            <td>午休</td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
+            <td rowspan="5">午休</td>
+            
         </tr>
          <tr>
             <td>13:10</td>
