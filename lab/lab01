@@ -1,7 +1,5 @@
 <table border="1">
         <tr>
-        <td></td>
-            <th>_</th>
             <th>星期一</th>
             <th>星期二</th>
             <th>星期三</th>
@@ -32,7 +30,7 @@
             <td>python基礎程式設計</td>
             <td>web基礎程式設計</td>
         </tr>
-        </tr>
+        <tr>
             <td>12:10</td>
             <td colspan="5">午休</td>
             
