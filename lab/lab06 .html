@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lab06</title>
+    <div style="text-align: center;">
+        <h1> 學生頁面 </h1>
+    </div>
+    <style>
+        article {
+            background-color: rgb(101, 91, 163);
+        }
+
+        article span {
+            background-color: lightskyblue;
+            color: rgb(8, 53, 68);
+            margin: 2px;
+            padding: 10px;
+            border-radius: 7px;
+        }
+
+        article,
+        div {
+            margin: 20px;
+        }
+
+        th {
+            background-color: rosybrown;
+            font-family: fantasy;
+            border-radius: 5px;
+            width: calc(100%/6);
+            text-align: center;
+        }
+
+        td {
+            vertical-align: middle;
+            text-align: center;
+        }
+    </style>
+    <style>
+        td {
+            background-color: thistle;
+            font-family: cursive;
+            border-style: solid;
+            border-color: rgb(81, 11, 160)
+        }
+
+        .table {
+            display: flex;
+            place-items: center;
+        }
+
+        article {
+            display: flex;
+        }
+
+        .container {
+            flex-flow: row nowrap;
+            justify-content: center;
+        }
+
+        .tips {
+            justify-content: center;
+        }
+    </style>
+    <div class="div">
+        <style>
+            .left {
+                display: grid;
+                grid-template-columns: minmax(100px max-content);
+                width: 100px;
+                height: 188px;
+                grid-template-columns: 1fr 1fr;
+                grid-template-rows: 1fr 1fr;
+                grid-row: gap 10px;
+                padding: 10px
+            }
+        </style>
+    </div>
+</head>
+
+<body>
+    <article class="container">
+        <span>選課系統</span>
+        <span>學分試算</span>
+        <span>班級課表</span>
+        <span>教室使用</span>
+        <span>成績查詢</span>
+        <span>文件下載</span>
+        <span>老師課表</span>
+        <span>教室使用</span>
+        <span>教室使用</span>
+        <span>教室使用</span>
+        <span>教室使用</span>
+        <span>教室使用</span>
+        <span>教室使用</span>
+        <span>教室使用</span>
+
+    </article>
+    <article class="tips">
+        <span>109年度課表</span>
+    </article>
+    <div class="content">
+       
+        <table border="1">
+            <tr>
+                <th> </th>
+                <th>星期一</th>
+                <th>星期二</th>
+                <th>星期三</th>
+                <th>星期四</th>
+                <th>星期五</th>
+
+            </tr>
+            <tr>
+                <td>9:10</td>
+                <td>python基礎程式設計</td>
+                <td>web基礎程式設計</td>
+                <td>軟工專題</td>
+                <td>python基礎程式設計</td>
+                <td>web基礎程式設計</td>
+            </tr>
+            <tr>
+                <td>10:10</td>
+                <td>python基礎程式設計</td>
+                <td>web基礎程式設計</td>
+                <td>軟工專題</td>
+                <td>python基礎程式設計</td>
+                <td>web基礎程式設計</td>
+            </tr>
+            <tr>
+                <td>11:10</td>
+                <td>python基礎程式設計</td>
+                <td>web基礎程式設計</td>
+                <td>軟工專題</td>
+                <td>python基礎程式設計</td>
+                <td>web基礎程式設計</td>
+            </tr>
+            </tr>
+
+            <td>12:10</td>
+            <td colspan="5">
+                <p style="text-align:center">甲奔午休~~~~</p>
+            </td>
+
+            </tr>
+            <tr>
+                <td>13:10</td>
+                <td>python基礎程式設計</td>
+                <td>web基礎程式設計</td>
+                <td>軟工專題</td>
+                <td>python基礎程式設計</td>
+                <td>web基礎程式設計</td>
+            </tr>
+            <tr>
+                <td>14:10</td>
+                <td>python基礎程式設計</td>
+                <td>web基礎程式設計</td>
+                <td>軟工專題</td>
+                <td>python基礎程式設計</td>
+                <td>web基礎程式設計</td>
+            </tr>
+            <tr>
+                <td>15:10</td>
+                <td>python基礎程式設計</td>
+                <td>web基礎程式設計</td>
+                <td>軟工專題</td>
+                <td>python基礎程式設計</td>
+                <td>web基礎程式設計</td>
+            </tr>
+            <tr>
+                <td>16:10</td>
+                <td colspan="5"></td>
+            </tr>
+        </table>
+    </div>
+    
+</body>
+
+</html>
